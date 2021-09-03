@@ -10,9 +10,9 @@ function App() {
     "sou viciado em jogos digitais, por conta deles que me apaixonei por programação";
   return (
     <div className="avo">
-      <CenteredCard children={factOne} />
-      <CenteredCard children={factTwo} />
-      <CenteredCard children={factThree} />
+      <CenteredCard>{factOne}</CenteredCard>
+      <CenteredCard>{factTwo}</CenteredCard>
+      <CenteredCard>{factThree}</CenteredCard>
     </div>
   );
 }
